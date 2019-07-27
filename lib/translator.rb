@@ -1,6 +1,5 @@
 # require modules here
 require 'yaml'
-require 'pry'
 def load_library(file_path)
   original = YAML.load_file(file_path)
   final_hash = {"get_meaning" => {}, "get_emoticon" => {}}
