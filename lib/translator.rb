@@ -7,7 +7,7 @@ def load_library(file_path)
     final["get_meaning"][emoticons[1]] = meaning
     final["get_emoticon"][emoticons[0]] = emoticons[1]
   end
-  result
+  final
 end
 
 def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
